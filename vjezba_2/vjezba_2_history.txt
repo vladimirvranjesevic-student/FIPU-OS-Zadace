@@ -1,0 +1,103 @@
+ 1055  git clone https://github.com/vladimirvranjesevic-student/FIPU-OS-Zadace.git
+ 1056  ls
+ 1057  git status
+ 1058  ls -a
+ 1059  cd FIPU-OS-Zadace/
+ 1060  ls
+ 1061  ls -a
+ 1062  mkdir FIPU-OS-1
+ 1063  ls
+ 1064  ls /mnt/c/Users/Administrator/Desktop/
+ 1065  cp /mnt/c/Users/Administrator/Desktop/Zadaca.txt Zadaca.txt
+ 1066  ls
+ 1067  cat Zadaca.txt 
+ 1068  clear
+ 1069  ls -a
+ 1070  git status
+ 1071  git add Zadaca.txt 
+ 1072  git status
+ 1073  git commit "Riješio prvu zadaću za OS"
+ 1074  git commit -m "Riješio prvu zadaću za OS"
+ 1075  git status
+ 1076  git push
+ 1077  ls
+ 1078  cp Zadaca.txt FIPU-OS-1/
+ 1079  rm Zadaca.txt 
+ 1080  git add .
+ 1081  git commit -m "Riješio prvu zadaću za OS"
+ 1082  git push
+ 1083  mkdir -p vjezba_2/data
+ 1084  mkdir vjezba_2/backup
+ 1085  ls
+ 1086  ls vjezba_2/
+ 1087  touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+ 1088  ls vjezba_2/data/
+ 1089  ls vjezba_2/data/ -A
+ 1090  echo 'console.log("Hello, World!")' > vjezba_2/data/script.js 
+ 1091  echo 'body { background-color: #f0f0f0; }' > vjezba_2/data/style.css 
+ 1092  echo 'VJEZBE=OS' > vjezba_2/data/.env
+ 1093  cat vjezba_2/data/script.js 
+ 1094  cat vjezba_2/data/style.css && cat vjezba_2/data/.env
+ 1095  ls -A
+ 1096  git status
+ 1097  git add vjezba_2/
+ 1098  git staus
+ 1099  git status
+ 1100  git commit -m "Riješen zadatak VJEZBA_2_zadatak_2"
+ 1101  git push
+ 1102  ls
+ 1103  cd vjezba_2/
+ 1104  ls
+ 1105  cp -r data/ backup/
+ 1106  ls backup/
+ 1107  cd backup/
+ 1108  rm -r data/
+ 1109  ls
+ 1110  cd ..
+ 1111  cd -v data/. backup/
+ 1112  cp -v data/. backup/
+ 1113  ls backup/
+ 1114  cp -rv data/. backup/
+ 1115  cd data/
+ 1116  ls -laS ../backup/
+ 1117  git status
+ 1118  cd ..
+ 1119  ls
+ 1120  git add .
+ 1121  git status 
+ 1122  git commit -m "Riješio zadaću VJEZBA_2_zadatak_3"
+ 1123  git push
+ 1124  ls
+ 1125  cd vjezba_2/
+ 1126  ls
+ 1127  rm -iv data/*
+ 1128  ls backup/
+ 1129  ls data/
+ 1130  ls -A data/
+ 1131  cp -vn backup/. data/
+ 1132  ls data/
+ 1133  cp backup/* data/
+ 1134  cp backup/.env data/
+ 1135  ls
+ 1136  rm data/*
+ 1137  ls data/
+ 1138  ls -a
+ 1139  ls -a data/
+ 1140  cp -nv backup/* data/
+ 1141  cp -nv backup/.env data/
+ 1142  ls -lAt1 data/
+ 1143  tree -a data/
+ 1144  git status
+ 1145  cd /mnt/e/
+ 1146  pwd
+ 1147  ls -laS
+ 1148  ls -lSh
+ 1149  tree -a
+ 1150  history
+ 1151  cd ~
+ 1152  ls
+ 1153  cd git_projects/
+ 1154  ls
+ 1155  cd FIPU-OS-Zadace/
+ 1156  ls
+ 1157  history | awk '$1 >= 1055' > vjezba_2_history.txt
