@@ -1,0 +1,34 @@
+(Zadatke sam pisao tako da se na svaku prethodnu točku nadovezuje sljedeća)
+
+Zadatak 1
+
+1. pwd                          (...FIPU-OS-Zadace/OS_1$)
+2. ls
+3. mkdir vjezba1 && cd vjezba1
+4. touch README.md              (nalazim se u dir vjezba1. Ako sam u njegovom naddirektoriju onda touch vjezba1/README.md)
+5. cd ..                        (povratak u OS_1)
+
+Zadatak 2
+
+1. mkdir vjezba2 && touch vjezba2/file.txt       (iz OS_1 direktorija)
+2. cp vjezba2/file.txt vjezba2/file_copy.txt
+3. ls vjezba2                                    (file.txt file_copy.txt)
+4. cd vjezba2 && rm file.txt && cd ..
+5. rmdir vjezba2                                (direktorij nije prazan. rmdir briše samo prazne direktorije)
+
+Zadatak 3
+
+1. mkdir vjezba3 && mkdir vjezba3/backup            (iz OS_1 direktorija)
+2. cd vjezba3 && touch notes.txt todo.txt script.sh
+3. cp notes.txt todo.txt script.sh backup/
+4. rm script.sh && ls                               (sada u vjezba3 postoje notes.txt todo.txt)
+5. mkdir backup/USER                                (iz vjezba3 direktorija)
+6. cd backup && mv notes.txt todo.txt script.sh USER
+
+Zadatak 4
+
+1. mkdir vjezba4 && mkdir vjezba4/subfolder
+2. touch vjezba4/HOSTNAME
+3. mv vjezba4/HOSTNAME vjezba4/USER
+4. mv vjezba4/USER vjezba4/subfolder/
+5. rm /mnt/c/Users/Administrator/vjezba4/subfolder/USER
